@@ -1,7 +1,7 @@
 ---
 layout: assembly
 ---
-<style>rect,line,path{ fill: rgba(1,1,1,0.1); stroke: black; }
+<style>.reg rect,.reg line,.reg path{ fill: rgba(1,1,1,0.1); stroke: black; }
   rect:hover{fill: rgba(255,255,0,0.2); }</style>
 # レジスタ
 ここでは、H8/300H シリーズのレジスタの構成と使用法について説明する
@@ -21,7 +21,7 @@ layout: assembly
 
 レジスタの上位16ビットを8ビットずつ分けてアクセスする表記(例:`e0l`)は存在しない
 
-<svg x="0px" y="0px" width="650px" height="351px" viewBox="0 0 500 270">
+<svg x="0px" y="0px" width="650px" height="351px" viewBox="0 0 500 270" class="reg">
   <g transform="scale(1,0.6) rotate(30,0,0) translate(50,0)">
     <rect class="er l" x="5" y="5" width="480px" height="40px" title="er0: 32bit"/>
     <text x="245" y="30" text-anchor="middle">er0</text>
