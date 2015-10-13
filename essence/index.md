@@ -7,5 +7,5 @@ layout: assembly
 * [コンディションコードレジスタ(CCR)](ccr.html)
 * [擬似命令](pseudo.html)
 * [セクション](section.html)
-* [アクセス]
+* [アドレッシング]
 * [ファイル分割のすすめ]
