@@ -9,3 +9,4 @@ layout: assembly
 * [セクション](section.html)
 * [アドレッシング]
 * [ファイル分割のすすめ]
+* [LCDと入力]
